@@ -1,0 +1,69 @@
+.widget {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    /*width:230px;*/
+}
+
+.floatingMenu {
+    border: 1px solid black;
+    width: 229px;
+    top: 48px;
+    border-radius: 7px;
+    background: white;
+    box-shadow: 3px 3px 12px #8b7c7c;
+    position:absolute;
+    z-index:10000;
+}
+
+.floatingMenuOption {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    width: 225px; 
+    display: table;
+}
+
+.floatingMenuOptionIcon {
+    margin-left: 10px;
+    float: left;
+    line-height: 52px;
+}
+
+.floatingMenuOptionIconImage {
+    width: 21px;
+    background: #5fc12f;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+.floatingMenuOptionText {
+    float: left;
+    margin-left: 12px;
+    cursor:pointer;
+}
+
+.widgeticon {
+	width: 34px;
+    border-radius: 55px;
+    margin-top: 10px;
+}
+
+.widgetRow {
+    overflow: hidden;
+}
+
+.widgetIcon {
+    float:left;
+}
+
+.widgetTitle {
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 58px;
+    cursor:pointer;
+}
+

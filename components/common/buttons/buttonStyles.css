@@ -1,0 +1,14 @@
+.button {
+    background: #5fc12f;
+    font-family: 'raleway';
+    color: #fff;
+    font-size: 20px;
+    border: 0px;
+    margin: 0px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Azul {
+    background: #08338f;
+}

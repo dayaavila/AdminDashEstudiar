@@ -1,0 +1,41 @@
+.zoomableImageFullWindow {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.54);
+    z-index: 999999;
+    left: 0px;
+    top: 0px;
+}
+
+.zoomableImageFullImage {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 68vw;
+    margin: 0px auto;
+    margin-left: 17vw;
+    margin-top: 7vh;
+    max-width: 66vw;
+    z-index: 999999999;
+    background: #fff;
+}
+
+.zoomableImageImage {
+	width: 100%;
+}
+
+.zoomableImageButton {
+    color: white;
+    border-radius: 10px;
+    float: right;
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    line-height: 36px;
+    font-size: 28px;
+    font-weight:bolder;
+}
+.zoomableImageButtonImage {
+    width: 35px;
+    height: 35px;
+}

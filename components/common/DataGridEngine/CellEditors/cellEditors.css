@@ -1,0 +1,39 @@
+.comboboxcelleditor {
+    border: 1px solid black;
+    min-height: 207px;
+    max-height: 15vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: white;
+    position: fixed;
+    display: inline-block;
+    outline: none;
+    z-index:11;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: #63758a;
+}
+
+.comboboxcelleditor_row {
+    height: 3vh;
+    padding-left: 1vw;
+    height: 50px;
+}
+
+.comboboxcelleditor_row:active {
+    background: #00bcd4;
+    color: #fff;
+}
+
+.comboboxcelleditor_row:hover {
+    background: #00bcd4;
+    color: #fff;
+}
+
+.comboboxcelleditor_loading {
+    background-image: url(/build/img/loading3.gif);
+    background-position: center;
+    background-size: 9%;
+    background-repeat: no-repeat;
+    height: 8vh;
+}

@@ -1,0 +1,226 @@
+.hiddenTable {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+}
+.gridTable {
+    width: 100%;
+    border-spacing: 0px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    border-radius: 6px;
+    /*border: 1px solid darkgray;*/
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 64vh;
+    display: block;
+}
+.gdheaderTable {
+    width: 100%;
+    border-spacing: 0px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #3370b0;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+}
+.gdHeader {
+	height: 40px;
+}
+
+.gdColumn {
+    background: #903434;
+    color: #fff;
+    font-family: 'raleway';
+    padding-left: 18px;
+    padding-right: 18px;
+    text-align: left;
+    font-weight: lighter;
+    width: 104px;
+}
+
+.gdHeaderActionColumn {
+	width: 20px;
+}
+
+.gdTextValue {
+	text-align: left;
+    padding-left: 14px;
+}
+
+.gdNumberValue {
+	text-align: right;
+    padding-right: 14px;
+    min-width: 70px;
+}
+
+.gdRow {
+	font-family: 'raleway';
+    color: gray;
+    padding: 0px;
+    /*height: 33px;*/
+}
+
+.gdField {
+    /*padding-left: 18px;*/
+    /*padding-right: 18px;*/
+    /*font-size: 14px;*/
+    padding: 0px;
+}
+
+.gdRecordButton {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.gdRecordButtonImage {
+    width: 22px;
+    height: 22px;
+    line-height: 43px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.gdColorValue {
+    width: 20px;
+    height: 20px;
+    border-radius: 38px;
+    border: 1px solid lightgray;
+}
+
+.redBg {
+    background: #ef3f17;
+}
+.blueBg {
+	background: #7eafe1;
+}
+.orangeBg {
+    background:rgb(245, 124, 0);
+}
+.greenBg {
+    background: #43b143;
+}
+.gdImageValue {
+    width:20px;
+    height:20px;
+}
+
+.imageFieldValue {
+    width: 35px;
+    height: 30px;
+}
+
+.white {
+    background:#fff;
+}
+.lightGray {
+    background: #e3e7e9;
+}
+
+.richTextPreviewer {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #ffffff;
+    left: 32%;
+    top: 4%;
+    border-radius: 8px; 
+    box-shadow: 3px 2px 14px 5px #9a9a9a;
+}
+
+.richTextPreviewerContent {
+    font-family: 'raleway';
+    background: white;
+    text-align: left;
+    margin: 20px;
+}
+
+.taskIcon {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+
+.dtTaskIcon {
+    width: 25px;
+    background: #3ab9c0;
+    border-radius: 30px;
+    padding: 1px;
+    height: 26px;
+    text-align: center;
+}
+
+.dtNoPicture {
+    width: 25px;
+    background: #b27fe2;
+    border-radius: 30px;
+    padding: 1px;
+    height: 26px;
+    text-align: center;
+}
+
+.noPictureIcon {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+}
+
+.gdsortAsc {
+    float: left;
+    font-size: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.gdsortDesc {
+    float: left;
+    font-size: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.gdsortActive {
+    background: black;
+    color: aquamarine;
+    border-radius: 23px;
+}
+
+.gdheaderFieldTitle {
+    font-size:16px;
+}
+
+.iconFieldType {
+    width: 22px;
+    height: 22px;
+    background: #0a0a0a;
+    border-radius: 30px;    
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

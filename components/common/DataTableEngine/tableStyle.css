@@ -1,0 +1,259 @@
+.hiddenTable {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+}
+.dataTable {
+    width: 100%;
+    border-spacing: 0px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 61vh;
+    display: block;
+    border-collapse: collapse;
+}
+.headerTable {
+    width: 100%;
+    border-spacing: 0px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #3370b0;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+}
+.dtHeader {
+	height: 40px;
+}
+
+.dtColumn {
+    background: #08338F;
+    color: #fff;
+    border-right: 1px solid #09577d;
+    font-family: 'raleway';
+    text-align: left;
+    font-weight: lighter;
+    height: 9vh;
+    padding-top:10px;
+}
+
+.dtHeaderActionColumn {
+	width: 20px;
+}
+
+.dtTextValue {
+	text-align: left;
+    padding-left: 14px;
+}
+
+.dtNumberValue {
+	text-align: right;
+    padding-right: 14px;
+    min-width: 70px;
+}
+
+.dtRow {
+	font-family: 'raleway';
+    color: gray;
+    height: 5vh;
+}
+
+.rowHover:hover {
+    background: #00b559;
+    color: #fff;
+}
+
+.dtField {
+    padding-left: 18px;
+    /*padding-right: 18px;*/
+    font-size: 14px;
+}
+
+.dtRecordButton {
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.dtRecordButtonImage {
+    width: 22px;
+    height: 22px;
+    line-height: 43px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.dtColorValue {
+    width: 20px;
+    height: 20px;
+    border-radius: 38px;
+    border: 1px solid lightgray;
+}
+
+.redBg {
+    background: #ef3f17;
+}
+.blueBg {
+	background: #7eafe1;
+}
+.orangeBg {
+    background:rgb(245, 124, 0);
+}
+.greenBg {
+    background: #43b143;
+}
+.dtImageValue {
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+
+.imageFieldValue {
+    width: 35px;
+    height: 30px;
+}
+
+.white {
+    background:#fff;
+    border-bottom: 1px solid #d1f0ff;
+}
+.lightGray {
+    background: #fcfcfc;
+    border-bottom: 1px solid #d1f0ff;
+}
+
+.richTextPreviewer {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: #ffffff;
+    left: 32%;
+    top: 4%;
+    border-radius: 8px; 
+    box-shadow: 3px 2px 14px 5px #9a9a9a;
+}
+
+.richTextPreviewerContent {
+    font-family: 'raleway';
+    background: white;
+    text-align: left;
+    margin: 20px;
+}
+
+.taskIcon {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.dtTaskIcon {
+    width: 25px;
+    background: #3ab9c0;
+    border-radius: 30px;
+    padding: 1px;
+    height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dtNoPicture {
+    width: 25px;
+    background: #b27fe2;
+    border-radius: 30px;
+    padding: 1px;
+    height: 26px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.noPictureIcon {
+    width: 16px;
+    height: 16px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.sortAsc {
+    float: left;
+    font-size: 12px;
+    padding-left: 4px;
+    line-height: 19px;
+    cursor: pointer;
+    background: white;
+    color: blue;
+    width: 16px;
+    height: 16px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.sortDesc {
+    float: left;
+    font-size: 12px;
+    padding-left: 4px;
+    line-height: 19px;
+    cursor: pointer;
+    background: white;
+    color: blue;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+}
+
+.sortActive {
+    background: #71c847;
+    color: black;
+    border-radius: 23px;
+}
+
+.headerField {
+    overflow: hidden;
+    height:70px;
+    /* width: 180px; */
+}
+.headerFieldSortBox {
+    float: left;
+    width: 20px;
+    border-right: 1px solid white;
+}
+.headerFieldTitle {
+    font-size: 16px;
+    float: left;
+    padding-left: 10px;
+}
+.iconFieldType {
+    width: 22px;
+    height: 22px;
+    background: #0a0a0a;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

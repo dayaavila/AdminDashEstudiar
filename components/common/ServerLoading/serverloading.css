@@ -1,0 +1,34 @@
+.serverwaitingcontainer {
+    top: 82vh;
+    left: 73vw;
+    width: 25vw;
+    height: 6vw;
+    position: absolute;
+    z-index: 99999999999;
+    background: rgba(0, 0, 0, 0.27843);
+    border-radius: 6px;
+}
+.serverwaitinglimgcontainer {
+    float: left;
+    width: 7vw;
+    text-align: center;
+}
+
+.serverwaitingloadingimage {
+    width: 5vw;
+    height: 5vw;
+}
+
+.serverwaitingtextcontainer {
+    float: left;
+    margin-left: 10px;
+    font-family: raleway;
+    font-size: 24px;
+    width: 17vw;
+    color: white;
+    line-height: 15vh;
+}
+.serverwaitingloadingimage {
+    width: 5vw;
+    height: 5vw;
+}

@@ -1,0 +1,72 @@
+.filterBox {
+    border-bottom: 5px solid #5FC12F;
+    float: none;
+    width: 100%;
+    min-height: 17px;
+    padding: 10px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.fieldFilterBox {
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #08338f;
+    color: #fff;
+    margin: 2px;
+    border-radius: 7px;
+    width: 100%;
+    background: #e9f0ff;
+}
+
+.fieldFilterBoxButton {
+    width: 50px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.filterIcon {
+    width: 25px;
+    height: 25px;
+    background: #00c4b5;
+    border-radius: 53px;
+    margin: 0px auto;
+    margin-top: 40%;
+}
+
+.selectFilterClass {
+    border-radius: 9px;
+    margin-top: 6px;
+    background: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right:10px;
+    color: #08338F;
+    font-size: 16px;
+    border-color: white;
+    cursor: pointer;
+    width: 220px;
+}
+
+.dataFilterBox {
+    position:relative;
+}
+
+.openCloseFilterBox {
+    height: 20px;
+    width: 20px;
+    right: 50px;
+    bottom: 10px;
+    position: absolute;
+    background: #08C8FF;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.filterBoxTitle {
+    font-family: 'raleway';
+    color: gray;
+}

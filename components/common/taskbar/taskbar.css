@@ -1,0 +1,112 @@
+@media print {
+    .taskbar {
+        display:none;
+    }
+}
+
+.taskbar {
+	height: 60px;
+    width: 100%;
+    background: #08338F;
+    line-height: 50px;
+    font-family: 'raleway';
+    font-size: 22px;
+    color: white;
+}
+
+.taskbarIcon {
+    float: left;
+    margin-left: 10px;
+    line-height: 72px;
+    cursor: pointer;
+}
+
+.taskbarText {
+    font-size: 14px;
+    line-height: 58px;
+    float: left;
+    margin-left: 10px;
+}
+
+.taskbarImageIcon {
+	width: 30px;
+    cursor: pointer;
+}
+
+.taskbaroptionsMenu {
+    width: 21%;
+    position: fixed;
+    height: 91%;
+    background: #ffffff;
+    top: 60px;
+    border-right: 1px solid #eaeaea;
+    z-index: 2;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.taskbaroptionsMenuOption {
+    width: 100%;
+    display: table;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.taskbaroptionsFolder {
+    width: 100%;
+    display: table;
+}
+.taskbarImageIconImage {
+    width: 21px;
+    background: #5fc12f;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.taskbarMenuOptionIcon {
+    margin-left: 20px;
+    float: left;
+    line-height: 52px;
+    cursor: pointer;
+}
+
+.taskbarFolderIcon {
+    margin-left: 20px;
+    float: left;
+    line-height: 52px;
+}
+.taskbarFolderText  {
+    color: #234e7b;
+    font-size: 15px;
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.taskbarMenuOptionText  {
+    color: #234e7b;
+    font-size: 12px;
+    float: left;
+    line-height: 30px;
+    margin-left: 10px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.taskbarBubbleItem {
+    position: relative;
+    z-index: 9999;
+    background: #b51010;
+    min-width: 12px;
+    padding-left: 2px;
+    height: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    left: 0px;
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    padding-right: 2px;
+}

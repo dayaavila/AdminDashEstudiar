@@ -1,0 +1,17 @@
+.onecolumn {
+	float: left;
+	width: 100%;
+}
+.twocolumns {
+	float: left;
+	width: 50%;
+}
+.threecolumns {
+	float: left;
+	width: 33%;
+}
+
+.fourcolumns {
+	float: left;
+	width: 25%;
+}

@@ -1,0 +1,56 @@
+@media screen {
+    .formContainer {
+        border: 1px solid #bbb6b6;
+        width: 98%;
+        margin: 0px auto;
+        margin-top: 30px;
+        border-radius: 11px;
+        font-family: 'raleway';
+        color: #575656;
+        background: #fff;
+        padding: 5px;
+    }
+
+    .formTitle {
+        font-size: 34px;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 12px;
+        font-weight: bold;
+        border-bottom: 3px solid gray;
+        width: 80%;
+        font-family: 'raleway';
+        color: gray;
+    }
+
+    .formFooter {
+        min-height: 30px;
+        border-top: 1px solid #b6abab;
+        height: 71px;
+    }
+}
+
+@media print {
+    .formTitle {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .formFooter {
+        visibility: hidden;
+    }
+
+}
+
+
+.formHeader {
+	
+}
+
+.formContent {
+    min-height: 66vh;
+    padding-left: 23px;
+    max-height: 68vh;
+    overflow-y: scroll;
+}
+
+

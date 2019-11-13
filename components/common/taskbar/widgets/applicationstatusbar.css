@@ -1,0 +1,86 @@
+.applicationStatusbar {
+    display: table;
+    line-height: 68px;
+    min-height: 20px;
+}
+.applicationStatusbarLoadingIcon {
+	float: left;
+}
+
+.applicationStatusbarLoadingIconImage {
+	width: 21px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.applicationStatusbarInformationIconImage {
+	width: 21px;
+    background: #5fc12f;
+    border-radius: 20px;
+    padding: 2px
+}
+
+.applicationStatusbarErrorIconImage {
+	width: 21px;
+    background: #a41d37;
+    border-radius: 20px;
+    padding: 2px
+}
+.applicationStatusbarMessage {
+    float: left;
+    font-size: 12px;
+    font-family: 'verdana';
+    margin-left: 11px;
+    line-height: 60px;
+}
+
+.applicationStatusProgressbarContainer {
+    border: 1px solid white;
+    width: 200px;
+    margin-top: 21px;
+    height: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    padding-right: 2px;
+    background: #A4bcc4;
+}
+			
+.applicationStatusProgressbarPercent {
+    height: 10px;
+    margin: 1px;
+    border-radius: 3px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+    background: #ABDB92; /* Old browsers */
+    background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}
+
+.applicationStatusProgressText {
+    mix-blend-mode: difference;
+    position: relative;
+    z-index: 10000;
+    font-size: 9px;
+    height: 10px;
+    line-height: 19px;
+    text-align: center;
+    top: -17px;
+    text-shadow: 1px 1px 13px white;
+    font-family: 'verdana';
+}
+.showingAppStatusDetails {
+    z-index: 9999;
+    background: #a1a4a7;
+    position: absolute;
+    font-family: 'raleway';
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #234e7b;
+    border-radius: 4px;
+}
+
+.appDetailsRow {
+    height: 25px;
+}

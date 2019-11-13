@@ -1,0 +1,57 @@
+.darkBackground {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.82);
+    z-index: 9999999;
+}
+
+.dialog {
+    width: 96%;
+    height: 89%;
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dialogTitle {
+    width: 100%;
+    height: 37px;
+    font-family: 'raleway';
+    padding: 15px;
+    line-height: 10px;
+    background: #08338f;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.dialogContent {
+    max-height: 70%;
+    margin: 40px;
+    overflow-y: scroll;
+    height: 70%;
+    font-size: 20px;
+    font-family: 'raleway';
+    padding: 10px;
+}
+
+.dialogActions {
+    width: 100%;
+    height: 51px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+.dialogColumn2 {
+    float: right;
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 40px;
+}
+
